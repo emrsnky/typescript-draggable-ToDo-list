@@ -1,0 +1,25 @@
+::-webkit-scrollbar {
+  height: 12px;
+  width: 5px;
+  background: #000;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+
+
+.customOverlay {
+  display: flex;
+}
+.customModal {
+  background: #f0f1f0;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 10px;
+}
